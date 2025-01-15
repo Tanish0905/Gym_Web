@@ -8,7 +8,7 @@ const router = express.Router();
 
 config({ path: "./config.env" });
 
-const PORT =process.env.PORT ||3000
+// const PORT =process.env.PORT ||3000
 app.use(
   cors({
     origin: [process.env.FRONTEND_URL],
@@ -54,6 +54,6 @@ router.post("/send/mail", async (req, res, next) => {
 
 app.use(router);
 
-app.listen(PORT, () => {
-  console.log(`Server listening at port ${process.env.PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server listening at port ${process.env.PORT}`);
+// });
