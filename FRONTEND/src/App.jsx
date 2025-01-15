@@ -8,6 +8,7 @@ import WorkoutSessions from './components/WorkoutSessions';
 import Gallery from './components/Gallery';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
+import BMICalculator from './components/BMICalculator';
   
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Gallery />
       <Pricing />
       <Contact />
+      <BMICalculator/>
       <ToastContainer theme='dark' position='top-center'/>
     </Router>
   )
