@@ -16,7 +16,7 @@ const Contact = () => {
     try {
       const { data } = await axios.post(
         // "http://localhost:4000/send/mail",
-        "https://gym-web-daiy.onrender.com",
+        "https://gym-web-daiy.onrender.com/send/mail",
         // "https://gym-web-75q1.onrender.com/send/mail",
         {
           name,
